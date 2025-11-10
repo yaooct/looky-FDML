@@ -1,0 +1,22 @@
+Update on 2025-11-08 for CW Light Bleach in FDML system
+'''
+The fixation screen is used to provide continuous-wave (CW) light bleach. The bleaching level can be adjusted by changing the G value in the background color RGB setting.
+
+In this version, a ±200% background contrast adaptation step is implemented by looping the G value sequence:
+[0, 128, 179, 244, 179, 128, 0].
+
+Key 'g' is for synchronizing OCT acquisition with background color/CW light level changes by running the external script 'keyG_flash_adjustCWlooky.py':
+Labjack listens for the FDML trigger,and generates a file named **_stimuli_**V_adjustCWlooky.txt while sending 0V to the LED. 
+The looky.py monitors the data folder and automatically updates the background color to the next value once a new **_stimuli_**V_adjustCWlooky.txt is detected.
+
+If synchronization is not needed, the background color can be advanced manually by pressing the ‘b’ key.
+
+Config.py parameters:
+cycleBgColor_flag = True #Enable background color cycling
+AutoCycleBg = True #Automatically change background color when **_stimuli_**V.txt is detected
+Garray_bgColor = [0, 128, 179, 244, 179, 128, 0] #±200% background contrast adaptation step
+
+Looky.py
+if re.search(r'.*_stimuli_.*V_adjustCWlooky.txt', filename) and cfg.cycleBgColor_flag and cfg.AutoCycleBg:
+   self.target.cyclebg()
+'''

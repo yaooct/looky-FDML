@@ -6,10 +6,8 @@ from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler, FileSystemEventHandler
 import numpy as np
 from matplotlib import pyplot as plt
-import matplotlib
-import subprocess
-
-#matplotlib.use("Qt5agg")
+from datetime import datetime
+import re
 
 # prompt for eye; set cfg.prompt_for_eye to False to stop this behavior
 eyes = ['RE','LE']
@@ -29,7 +27,7 @@ except AssertionError as ae:
 
 eye_index = eyes.index(eye)
 
-auto_advance = cfg.auto_advance_default
+
 
 # load location script
 try:
@@ -50,13 +48,6 @@ os.makedirs(cfg.data_folder,exist_ok=True)
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename=log_path, encoding='utf-8', level=logging.INFO)
 
-if cfg.beep is not None:
-    pygame.mixer.init()
-    do_beep = True
-    beep = pygame.mixer.Sound(cfg.beep)
-    beep.play()
-else:
-    do_beep = False
 
 with open(os.path.join(cfg.data_folder,'fonts_available.log'),'w') as fid:
     font_list = sorted(pygame.font.get_fonts())
@@ -71,11 +62,19 @@ def log(message):
 my_font = pygame.font.SysFont(cfg.text_font, cfg.text_font_size)
 
 # pygame setup
+try:
+    sdl_x = cfg.DEFAULT_DISPLAY_X_OFFSET
+except Exception as e:
+    sdl_x = 0
+sdl_y = 0
+os.environ['SDL_VIDEO_WINDOW_POS'] = f"{sdl_x},{sdl_y}"
+
 screen = pygame.display.set_mode(cfg.display_mode,display=cfg.monitor_number)
 clock = pygame.time.Clock()
 running = True
 dt = 0
 
+global bgc
 bgc = cfg.background_color
 
 player_pos = pygame.Vector2(screen.get_width() / 2, screen.get_height() / 2)
@@ -89,7 +88,7 @@ class ObserverHandler(FileSystemEventHandler):
         filename = event.src_path
         ext = os.path.splitext(filename)[-1]
         if ext.lower() in cfg.data_monitoring_extensions:
-            outfn = filename.replace(ext,'')+'.looky'
+            outfn = filename.replace(ext,'')+'_'+tar.ecc()+'.looky'
             outstr = '%s: %s'%(eye,self.target.ecc())
             with open(outfn,'w') as fid:
                 fid.write(outstr)
@@ -97,10 +96,19 @@ class ObserverHandler(FileSystemEventHandler):
                 assert os.path.exists(outfn)
             except AssertionError:
                 sys.exit('ObserverHandler failed to write .looky file.')
-            if auto_advance:
+            if cfg.auto_advance:
+                time.sleep(cfg.auto_advance_delay)
                 self.target.next()
             log('%s file found at %s, eccentricity written to %s'%(ext,filename,outfn))
-            log('Auto-advance to %s'%self.target.ecc())
+            log('Auto-advance to %s'%self.target.ecc())            
+        
+        if re.search(r'.*_stimuli_.*V_adjustCWlooky.txt', filename) and cfg.cycleBgColor_flag and cfg.AutoCycleBg:
+           self.target.cyclebg()
+           
+            
+            
+            
+            
                 
 class Target:
     def __str__(self):
@@ -128,6 +136,7 @@ class Target:
         self.radius = cfg.target_radius*cfg.pixels_per_deg
         self.foreground_color = cfg.foreground_color
         self.background_color = cfg.background_color
+        self.bgindex = 0
 
     def next(self):
         self.location_index = (self.location_index+1)%len(location_script)
@@ -149,8 +158,6 @@ class Target:
             self.position_vector.y+=dy
         self.logged = False
         self.age = 0.0
-        if do_beep:
-            beep.play()
 
     def left(self,fine=False):
         if fine:
@@ -194,12 +201,12 @@ class Target:
             else:
                 h = 'C'
         if y>0:
-            v = 'I'
-        elif y<0:
             v = 'S'
+        elif y<0:
+            v = 'I'
         else:
             v = 'C'
-        return '%0.3f%s, %0.3f%s'%(abs(x),h,abs(y),v)
+        return '%0.0f%s_%0.0f%s'%(abs(x),h,abs(y),v)
 
     def brightenfg(self):
         newcolor = [np.clip(c+cfg.color_increment,0,255).astype(int) for c in self.foreground_color]
@@ -209,23 +216,71 @@ class Target:
         newcolor = [np.clip(c-cfg.color_increment,0,255).astype(int) for c in self.foreground_color]
         self.foreground_color = tuple(newcolor)
 
-    def brightenbg(self):
+    def brightenbg(self):       
         newcolor = [np.clip(c+cfg.color_increment,0,255).astype(int) for c in self.background_color]
         self.background_color = tuple(newcolor)
+        print(f'############\n background:{self.background_color} \n##################\n')
+        
 
     def darkenbg(self):
-        newcolor = [np.clip(c-cfg.color_increment,0,255).astype(int) for c in self.background_color]
+        if cfg.cycleBgColor_flag:
+            self.cyclebg()
+        else:    
+            newcolor = [np.clip(c-cfg.color_increment,0,255).astype(int) for c in self.background_color]
+            self.background_color = tuple(newcolor)
+            print(f'############\n background:{self.background_color} \n##################\n')
+        
+            
+    def cyclebg(self):
+        global bgc
+        self.bgindex = (self.bgindex+1)%len(cfg.Garray_bgColor)
+        Garray = np.array(cfg.Garray_bgColor)
+        try:
+            # find largest element strictly smaller than Gset
+            Gnew = Garray[self.bgindex]
+            if Gnew is not None:
+                newcolor = (self.background_color[0], int(Gnew), self.background_color[2])
+            else:
+                newcolor = self.background_color
+        except Exception as e:
+            print(f"Error while setting new background: {e}")
+            newcolor = self.background_color    
+
         self.background_color = tuple(newcolor)
-
-
+        bgc = self.background_color
+        print(f'############\n background:{self.background_color} \n##################\n')
+        # Save new bg to text file
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"{timestamp}_bg_R{self.background_color[0]}G{self.background_color[1]}B{self.background_color[2]}.txt"
+        bgsavepath = os.path.join(cfg.data_monitoring_folder, filename)
+        with open(bgsavepath, "w") as f:
+            f.write(str(self.background_color))
+            print('saved!')
+        
+    
+import subprocess
 def run_external_script(script):
     """Run single_flash_labjack.py in background, open empty console, and run cycle_background after closing it."""
     try:
         # Start single_flash_labjack.py normally in background
         subprocess.Popen([sys.executable, script])
-        print('%s started.'%script)
+        print(f"{script} started.")
+        # # Path to the temporary text file
+        # txt_path = r"C:\FDML_data\temp_console.txt"
+        # # Create the text file if it doesn't exist
+        # if not os.path.exists(txt_path):
+        #     with open(txt_path, "w") as f:
+        #         f.write("Close this file to continue...")
+        # # Open the text file using default application (Notepad)
+        # process = subprocess.Popen(["notepad.exe", txt_path])
+        # # Wait for the user to close Notepad
+        # process.wait()
+        # print("Text file closed. Running cycle_background_colors...")     
+        # #########this is for light adaptation
+        # #cycle_background_colors()  # change the fixation screen color   
+
     except Exception as e:
-        print('Error running %s: %s'%(script,e))
+        print('Error running %s: %s'%(script,e))    
 
 class Origin(Target):
     
@@ -516,6 +571,7 @@ class Grating(Inset):
             
         self.surface = pygame.surfarray.make_surface(self.grating3)
         
+
 class UserWindow:
 
     def __init__(self):
@@ -540,11 +596,18 @@ class UserWindow:
         self.ohandle.set_ydata([origin.position_vector.y])
         self.thandle.set_xdata([origin.position_vector.x+target.position_vector.x])
         self.thandle.set_ydata([origin.position_vector.y+target.position_vector.y])
-        
+
         self.mhandle.set_text(message)
         self.fig.canvas.flush_events()
         
-        
+# if cfg.target_type=='bullseye':
+#     tar = Bullseye()
+# elif cfg.target_type=='star':
+#     tar = Star()
+# elif cfg.target_type=='ABC':
+#     tar = ABC()
+# else:
+#     sys.exit('%s is an invalid target_type in config.py')
 
 tar_dict = {'bullseye':Bullseye,
             'star':Star,
@@ -607,6 +670,9 @@ def write_test_file():
 
 if cfg.user_window:
     uwin = UserWindow()
+    
+
+
 
 while running:
     # poll for events
@@ -700,19 +766,16 @@ while running:
                 else:
                     tar.darkenbg()
                     bgc = tar.background_color
-
-            if event.key == pygame.K_c:
-                tar.move(0,0,True)
-
-            if event.key == pygame.K_a:
-                auto_advance = not auto_advance
-
+            
             if event.key == pygame.K_o:
                 run_external_script(cfg.external_script_o)
 
             if event.key == pygame.K_p:
                 run_external_script(cfg.external_script_p)
-            
+                
+            if event.key == pygame.K_g:
+                run_external_script(cfg.external_script_g)
+                
     # fill the screen with a color to wipe away anything from last frame
     screen.fill(bgc)
 
@@ -740,16 +803,11 @@ while running:
         script_message = 'off script'
     else:
         script_message = 'no script'
-
-    if auto_advance:
-        aa_message = 'AA'
-    else:
-        aa_message = ''
         
     if lidx>-1:
-        message = '%s: %s (loc %d) %s'%(eye,tar.ecc(),lidx,aa_message)
+        message = '%s: %s (loc %d)'%(eye,tar.ecc(),lidx)
     else:
-        message = '%s: %s (%s) %s'%(eye,tar.ecc(),script_message,aa_message)
+        message = '%s: %s (%s)'%(eye,tar.ecc(),script_message)
         
     if origin_mode:
         ox_px = origin.position_vector.x
@@ -763,13 +821,12 @@ while running:
         log(message)
         print(message)
         tar.logged = True
-
-
+    
     if cfg.user_window:
         uwin.age = uwin.age + dt
         if uwin.age > cfg.user_window_update_interval:
             uwin.update(origin,tar,message)
-        
+            
     # flip() the display to put your work on screen
     pygame.display.flip()
 

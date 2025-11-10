@@ -1,0 +1,219 @@
+INFO:__main__:2025.11.07.12.47.43: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.12.48.08: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.48.08_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.48.08_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.12.48.08: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.12.48.09: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.12.48.26: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.48.26_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.48.26_1030_RJ_OD-E1-rep1_3N_4S.looky
+INFO:__main__:2025.11.07.12.48.26: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.12.48.27: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.12.54.44: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.54.44_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.54.44_1030_RJ_OD-E1-rep1_0C_5S.looky
+INFO:__main__:2025.11.07.12.54.44: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.12.54.45: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.12.56.27: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.56.27_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.56.27_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.12.56.27: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.12.56.28: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.12.57.18: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.12.57.26: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.12.57.35: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.12.57.41: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.57.41_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.57.41_1030_RJ_OD-E1-rep1_0C_5S.looky
+INFO:__main__:2025.11.07.12.57.41: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.12.57.42: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.12.58.30: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.12.58.40: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.58.40_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_12.58.40_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.12.58.40: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.12.58.41: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.13.00.53: RE: 5N_0C (loc 0) origin x = 730, y = 785
+INFO:__main__:2025.11.07.13.01.04: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.01.04_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.01.04_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.13.01.04: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.13.01.05: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.13.01.33: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.01.33_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.01.33_1030_RJ_OD-E1-rep1_3N_4S.looky
+INFO:__main__:2025.11.07.13.01.33: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.13.01.34: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.13.05.10: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.05.10_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.05.10_1030_RJ_OD-E1-rep1_0C_5S.looky
+INFO:__main__:2025.11.07.13.05.10: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.13.05.11: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.13.07.38: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.07.38_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.07.38_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.13.07.38: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.13.07.39: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.13.08.59: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.13.09.20: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.09.20_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.09.20_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.13.09.20: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.13.09.21: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.13.10.06: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.10.06_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.10.06_1030_RJ_OD-E1-rep1_3N_4S.looky
+INFO:__main__:2025.11.07.13.10.06: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.13.10.07: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.13.11.51: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.13.12.13: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.12.13_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.12.13_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.13.12.13: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.13.12.14: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.13.13.12: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.13.12_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.13.12_1030_RJ_OD-E1-rep1_3N_4S.looky
+INFO:__main__:2025.11.07.13.13.12: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.13.13.13: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.13.13.44: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.13.13.59: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.13.59_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.13.59_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.13.13.59: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.13.14.00: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.13.15.41: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.13.15.54: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.15.54_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.15.54_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.13.15.54: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.13.15.55: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.13.19.00: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.13.19.15: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.19.15_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.19.15_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.13.19.15: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.13.19.16: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.13.25.03: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.25.03_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.25.03_1030_RJ_OD-E1-rep1_3N_4S.looky
+INFO:__main__:2025.11.07.13.25.03: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.13.25.04: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.13.25.39: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.25.39_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.25.39_1030_RJ_OD-E1-rep1_0C_5S.looky
+INFO:__main__:2025.11.07.13.25.39: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.13.25.40: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.13.28.03: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.28.03_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.28.03_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.13.28.03: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.13.28.04: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.13.28.30: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.28.30_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.28.30_1030_RJ_OD-E1-rep1_3N_4S.looky
+INFO:__main__:2025.11.07.13.28.30: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.13.28.31: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.13.29.24: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.29.24_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.29.24_1030_RJ_OD-E1-rep1_0C_5S.looky
+INFO:__main__:2025.11.07.13.29.24: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.13.29.25: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.13.30.17: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.30.17_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_13.30.17_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.13.30.17: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.13.30.18: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.13.41.09: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_13.41.09_1030_RJ_OD-test.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_13.41.09_1030_RJ_OD-test_3N_4S.looky
+INFO:__main__:2025.11.07.13.41.09: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.13.41.10: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.14.04.13: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.14.12.44: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.14.13.05: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_14.13.05_1030_RJ_OD-rep1-test.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_14.13.05_1030_RJ_OD-rep1-test_5N_0C.looky
+INFO:__main__:2025.11.07.14.13.05: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.14.13.06: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.14.13.39: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.14.13.55: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_14.13.55_1030_RJ_OD-rep1-test.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_14.13.55_1030_RJ_OD-rep1-test_5N_0C.looky
+INFO:__main__:2025.11.07.14.13.55: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.14.13.56: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.14.14.37: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_14.14.37_1030_RJ_OD-rep1-test.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_14.14.37_1030_RJ_OD-rep1-test_3N_4S.looky
+INFO:__main__:2025.11.07.14.14.37: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.14.14.38: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.14.15.55: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.15.54_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.15.54_1030_RJ_OD-E1-rep1_0C_5S.looky
+INFO:__main__:2025.11.07.14.15.55: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.14.15.55: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.15.54_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.15.54_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.14.15.55: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.14.15.56: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.14.16.26: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.16.26_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.16.26_1030_RJ_OD-E1-rep1_3N_4S.looky
+INFO:__main__:2025.11.07.14.16.26: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.14.16.27: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.14.18.49: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.18.49_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.18.49_1030_RJ_OD-E1-rep1_0C_5S.looky
+INFO:__main__:2025.11.07.14.18.49: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.14.18.50: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.14.23.57: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.14.24.08: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.24.08_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.24.08_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.14.24.08: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.14.24.09: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.14.24.52: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.14.25.04: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.25.04_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.11.07_14.25.04_1030_RJ_OD-E1-rep1_5N_0C.looky
+INFO:__main__:2025.11.07.14.25.04: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.14.25.05: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.14.26.11: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.14.37.52: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_14.37.52_1030_RJ_OD-A-5N.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_14.37.52_1030_RJ_OD-A-5N_5N_0C.looky
+INFO:__main__:2025.11.07.14.37.52: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.14.37.53: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.14.38.58: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_14.38.58_1030_RJ_OD-A-rep1.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_14.38.58_1030_RJ_OD-A-rep1_3N_4S.looky
+INFO:__main__:2025.11.07.14.38.58: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.14.38.59: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.14.42.28: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.14.43.34: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.14.44.44: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.14.45.16: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.14.54.02: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.14.54.45: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.14.55.21: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.14.56.31: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.15.07.49: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.07.46_1030_RJ_ODrep2.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.07.46_1030_RJ_ODrep2_5N_0C.looky
+INFO:__main__:2025.11.07.15.07.49: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.15.07.50: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.15.08.34: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.08.31_1030_RJ_ODrep2.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.08.31_1030_RJ_ODrep2_3N_4S.looky
+INFO:__main__:2025.11.07.15.08.34: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.15.08.35: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.15.09.15: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.09.12_1030_RJ_ODrep2.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.09.12_1030_RJ_ODrep2_0C_5S.looky
+INFO:__main__:2025.11.07.15.09.15: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.15.09.16: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.15.22.37: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.22.34_1030_RJ_ODrep3.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.22.34_1030_RJ_ODrep3_5N_0C.looky
+INFO:__main__:2025.11.07.15.22.37: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.15.22.38: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.15.23.13: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.23.10_1030_RJ_ODrep3.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.23.10_1030_RJ_ODrep3_3N_4S.looky
+INFO:__main__:2025.11.07.15.23.13: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.15.23.14: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.15.23.42: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.23.39_1030_RJ_ODrep3.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.23.39_1030_RJ_ODrep3_0C_5S.looky
+INFO:__main__:2025.11.07.15.23.42: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.15.23.43: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.15.34.36: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.34.33_1030_RJ_ODrep4.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.34.33_1030_RJ_ODrep4_5N_0C.looky
+INFO:__main__:2025.11.07.15.34.36: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.15.34.37: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.15.35.05: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.35.02_1030_RJ_ODrep4.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.35.02_1030_RJ_ODrep4_3N_4S.looky
+INFO:__main__:2025.11.07.15.35.05: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.15.35.06: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.15.35.35: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.35.32_1030_RJ_ODrep4.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.35.32_1030_RJ_ODrep4_0C_5S.looky
+INFO:__main__:2025.11.07.15.35.35: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.15.35.36: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.15.47.07: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.47.04_1030_RJ_ODrep5.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.47.04_1030_RJ_ODrep5_5N_0C.looky
+INFO:__main__:2025.11.07.15.47.07: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.15.47.08: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.15.47.41: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.47.38_1030_RJ_ODrep5.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.47.38_1030_RJ_ODrep5_3N_4S.looky
+INFO:__main__:2025.11.07.15.47.41: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.15.47.42: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.15.48.06: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_15.48.03_1030_RJ_ODrep5.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_15.48.03_1030_RJ_ODrep5_0C_5S.looky
+INFO:__main__:2025.11.07.15.48.06: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.15.48.07: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.16.00.05: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.00.02_1030_RJ_ODrep6.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.00.02_1030_RJ_ODrep6_5N_0C.looky
+INFO:__main__:2025.11.07.16.00.05: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.16.00.06: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.16.00.45: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.00.42_1030_RJ_ODrep6.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.00.42_1030_RJ_ODrep6_3N_4S.looky
+INFO:__main__:2025.11.07.16.00.45: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.16.00.46: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.16.01.20: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.01.17_1030_RJ_ODrep6.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.01.17_1030_RJ_ODrep6_0C_5S.looky
+INFO:__main__:2025.11.07.16.01.20: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.16.01.21: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.16.13.59: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.13.56_1030_RJ_ODrep7.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.13.56_1030_RJ_ODrep7_5N_0C.looky
+INFO:__main__:2025.11.07.16.13.59: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.16.14.00: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.16.14.29: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.14.26_1030_RJ_ODrep7.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.14.26_1030_RJ_ODrep7_3N_4S.looky
+INFO:__main__:2025.11.07.16.14.29: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.16.14.30: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.16.14.58: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.14.55_1030_RJ_ODrep7.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.14.55_1030_RJ_ODrep7_0C_5S.looky
+INFO:__main__:2025.11.07.16.14.58: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.16.14.59: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.16.26.25: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.26.22_1030_RJ_ODrep8.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.26.22_1030_RJ_ODrep8_5N_0C.looky
+INFO:__main__:2025.11.07.16.26.25: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.16.26.26: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.16.26.59: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.26.56_1030_RJ_ODrep8.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.26.56_1030_RJ_ODrep8_3N_4S.looky
+INFO:__main__:2025.11.07.16.26.59: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.16.27.00: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.16.27.31: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.27.28_1030_RJ_ODrep8.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.27.28_1030_RJ_ODrep8_0C_5S.looky
+INFO:__main__:2025.11.07.16.27.31: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.16.27.32: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.16.39.18: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.39.15_1030_RJ_ODrep9.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.39.15_1030_RJ_ODrep9_5N_0C.looky
+INFO:__main__:2025.11.07.16.39.18: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.16.39.19: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.16.39.51: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.39.48_1030_RJ_ODrep9.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.39.48_1030_RJ_ODrep9_3N_4S.looky
+INFO:__main__:2025.11.07.16.39.51: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.16.39.52: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.16.40.28: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.40.25_1030_RJ_ODrep9.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.40.25_1030_RJ_ODrep9_0C_5S.looky
+INFO:__main__:2025.11.07.16.40.28: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.16.40.29: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.16.51.25: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.51.22_1030_RJ_ODrep10.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.51.22_1030_RJ_ODrep10_5N_0C.looky
+INFO:__main__:2025.11.07.16.51.25: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.16.51.26: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.16.52.03: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.52.00_1030_RJ_ODrep10.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.52.00_1030_RJ_ODrep10_3N_4S.looky
+INFO:__main__:2025.11.07.16.52.03: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.16.52.04: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.16.52.43: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_16.52.40_1030_RJ_ODrep10.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_16.52.40_1030_RJ_ODrep10_0C_5S.looky
+INFO:__main__:2025.11.07.16.52.43: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.16.52.44: RE: 5N_0C (loc 0)
+INFO:__main__:2025.11.07.17.03.46: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_17.03.43_1030_RJ_ODrep11.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_17.03.43_1030_RJ_ODrep11_5N_0C.looky
+INFO:__main__:2025.11.07.17.03.46: Auto-advance to 3N_4S
+INFO:__main__:2025.11.07.17.03.47: RE: 3N_4S (loc 1)
+INFO:__main__:2025.11.07.17.04.35: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_17.04.32_1030_RJ_ODrep11.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_17.04.32_1030_RJ_ODrep11_3N_4S.looky
+INFO:__main__:2025.11.07.17.04.35: Auto-advance to 0C_5S
+INFO:__main__:2025.11.07.17.04.36: RE: 0C_5S (loc 2)
+INFO:__main__:2025.11.07.17.05.01: .oct file found at C:\FDML_data\11072025_RJ_OD\2025.11.07_17.04.58_1030_RJ_ODrep11.oct, eccentricity written to C:\FDML_data\11072025_RJ_OD\2025.11.07_17.04.58_1030_RJ_ODrep11_0C_5S.looky
+INFO:__main__:2025.11.07.17.05.01: Auto-advance to 5N_0C
+INFO:__main__:2025.11.07.17.05.02: RE: 5N_0C (loc 0)

@@ -71,10 +71,6 @@ These instructions assume that you are using the [Anaconda](https://www.anaconda
 
 <kbd>PageUp</kbd>: Previous location in location script.
 
-<kbd>c</kbd>: Return target to center (origin).
-
-<kbd>a</kbd>: Toggle auto advance.
-
 <kbd>o</kbd>: Run the Python script located at `config.external_script_o`.
 
 <kbd>p</kbd>: Run the Python script located at `config.external_script_p`.
@@ -102,7 +98,7 @@ auto_advance = True # automatically advance the script index when new data is de
 
 If `data_monitoring` is `True`, **looky** will monitor the folder `data_monitoring_folder` recursively to see if any files are written there. If a file is written there, its extension is compared to the items in the list `data_monitoring_extensions`, and if it matches one of those, **looky** writes the current location (retinal eccentricity) to a file accompanying the newly written data file.
 
-If `auto_advance` is `True`, then **looky** will automatically go to the next location in the location script whenever new data is written to the `data_monitoring_folder` matching one of the extensions in `data_monitoring_extensions`. Auto advance can be toggled with the <kbd>a</kbd> key. 'AA' in the message at the top of the screen indicates that auto advance is on.
+If `auto_advance` is `True`, then **looky** will automatically go to the next location in the location script whenever new data is written to the `data_monitoring_folder` matching one of the extensions in `data_monitoring_extensions`.
 
 #### External scripts
 

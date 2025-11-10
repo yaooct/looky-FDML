@@ -1,0 +1,112 @@
+INFO:__main__:2025.10.31.13.20.09: RE: 3.000N, 4.000I (loc 0)
+INFO:__main__:2025.10.31.13.20.42: RE: 0.000C, 5.000I (loc 2)
+INFO:__main__:2025.10.31.13.20.50: RE: 1.000N, 5.500I (off script)
+INFO:__main__:2025.10.31.13.30.02: RE: 3.000N, 4.000I (loc 0)
+INFO:__main__:2025.10.31.13.33.25: RE: 3.000N, 4.000I (loc 0)
+INFO:__main__:2025.10.31.13.33.57: RE: 5.000N, 0.000C (loc 1)
+INFO:__main__:2025.10.31.13.34.02: RE: 3.000N, 4.000I (loc 0)
+INFO:__main__:2025.10.31.13.41.14: RE: 3.000N, 4.000I (loc 0)
+INFO:__main__:2025.10.31.13.41.29: RE: 0.000C, 5.000I (loc 2)
+INFO:__main__:2025.10.31.13.48.49: RE: 3.000N, 4.000I (loc 0)
+INFO:__main__:2025.10.31.13.48.59: RE: 5.000N, 0.000C (loc 1)
+INFO:__main__:2025.10.31.13.49.04: RE: 3.000N, 4.000I (loc 0)
+INFO:__main__:2025.10.31.13.50.52: RE: 0.000C, 5.000I (loc 2) origin x = 720, y = 720
+INFO:__main__:2025.10.31.13.50.59: RE: 5.000N, 0.000C (loc 1)
+INFO:__main__:2025.10.31.14.46.58: RE: 3.000N, 4.000I (loc 0)
+INFO:__main__:2025.10.31.14.47.09: RE: 3.000N, 4.500I (off script)
+INFO:__main__:2025.10.31.14.47.19: RE: 3.000N, 5.000I (off script)
+INFO:__main__:2025.10.31.14.47.21: RE: 3.000N, 5.500I (off script)
+INFO:__main__:2025.10.31.14.47.23: RE: 3.000N, 3.500I (off script)
+INFO:__main__:2025.10.31.14.47.26: RE: 3.000N, 1.500I (off script)
+INFO:__main__:2025.10.31.14.47.33: RE: 3.000N, 0.500I (off script)
+INFO:__main__:2025.10.31.14.47.34: RE: 3.000N, 0.000I (off script)
+INFO:__main__:2025.10.31.14.47.37: RE: 4.000N, 0.000I (off script)
+INFO:__main__:2025.10.31.14.47.40: RE: 0.500T, 0.000I (off script)
+INFO:__main__:2025.10.31.14.47.43: RE: 1.000T, 0.000I (off script)
+INFO:__main__:2025.10.31.14.47.46: RE: 0.500T, 0.000I (off script)
+INFO:__main__:2025.10.31.14.47.48: RE: 0.000N, 0.000I (off script)
+INFO:__main__:2025.10.31.14.53.42: RE: 3.000N, 4.000I (loc 0)
+INFO:__main__:2025.10.31.14.53.55: RE: 3.000N, 6.000I (off script)
+INFO:__main__:2025.10.31.14.53.57: RE: 3.000N, 2.500I (off script)
+INFO:__main__:2025.10.31.14.54.00: RE: 3.000N, 1.000I (off script)
+INFO:__main__:2025.10.31.14.54.02: RE: 3.000N, 0.500S (off script)
+INFO:__main__:2025.10.31.14.54.04: RE: 1.000N, 0.500S (off script)
+INFO:__main__:2025.10.31.14.54.05: RE: 0.500N, 0.500S (off script)
+INFO:__main__:2025.10.31.14.54.09: RE: 0.000N, 0.500S (off script)
+INFO:__main__:2025.10.31.14.54.53: RE: 0.000N, 0.000I (off script)
+INFO:__main__:2025.10.31.14.59.52: RE: 3.000N, 4.000I (loc 0)
+INFO:__main__:2025.10.31.15.02.54: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.02.59: RE: 3.000N, 4.000S (loc 1)
+INFO:__main__:2025.10.31.15.03.02: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.03.34: RE: 3.000N, 4.000S (loc 1)
+INFO:__main__:2025.10.31.15.04.21: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.04.33: RE: 3.000N, 4.000I (loc 1)
+INFO:__main__:2025.10.31.15.04.57: RE: 5.000N, 4.000I (off script)
+INFO:__main__:2025.10.31.15.05.00: RE: 0.000N, 4.000I (off script)
+INFO:__main__:2025.10.31.15.07.34: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.07.41: RE: 3.000N, 4.000S (loc 1)
+INFO:__main__:2025.10.31.15.07.43: RE: 1.000N, 4.000S (off script)
+INFO:__main__:2025.10.31.15.07.46: RE: 0.000N, 4.000S (off script)
+INFO:__main__:2025.10.31.15.09.45: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.14.54: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.16.12: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.16.44: RE: 3.000N, 4.000S (loc 1)
+INFO:__main__:2025.10.31.15.21.56: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.22.55: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.23.30: .oct file found at C:\FDML_data\295049429033733.oct, eccentricity written to C:\FDML_data\295049429033733.looky
+INFO:__main__:2025.10.31.15.23.30: Auto-advance to 3.000N, 4.000S
+INFO:__main__:2025.10.31.15.23.31: RE: 3.000N, 4.000S (loc 1)
+INFO:__main__:2025.10.31.15.23.33: .oct file found at C:\FDML_data\843902472838848.oct, eccentricity written to C:\FDML_data\843902472838848.looky
+INFO:__main__:2025.10.31.15.23.33: Auto-advance to 5.000T, 5.000S
+INFO:__main__:2025.10.31.15.23.34: RE: 5.000T, 5.000S (loc 2)
+INFO:__main__:2025.10.31.15.24.24: .oct file found at C:\FDML_data\332749856373340.oct, eccentricity written to C:\FDML_data\332749856373340.looky
+INFO:__main__:2025.10.31.15.24.24: Auto-advance to 0.000C, 0.000C
+INFO:__main__:2025.10.31.15.24.25: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.24.27: .oct file found at C:\FDML_data\195883406316890.oct, eccentricity written to C:\FDML_data\195883406316890.looky
+INFO:__main__:2025.10.31.15.24.27: Auto-advance to 3.000N, 4.000S
+INFO:__main__:2025.10.31.15.24.28: RE: 3.000N, 4.000S (loc 1)
+INFO:__main__:2025.10.31.15.26.32: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1.looky
+INFO:__main__:2025.10.31.15.26.32: Auto-advance to 5.000T, 5.000S
+INFO:__main__:2025.10.31.15.26.32: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1.looky
+INFO:__main__:2025.10.31.15.26.32: Auto-advance to 0.000C, 0.000C
+INFO:__main__:2025.10.31.15.26.33: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.27.19: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1 (1).oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1 (1).looky
+INFO:__main__:2025.10.31.15.27.19: Auto-advance to 3.000N, 4.000S
+INFO:__main__:2025.10.31.15.27.20: RE: 3.000N, 4.000S (loc 1)
+INFO:__main__:2025.10.31.15.27.37: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1 (2).oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1 (2).looky
+INFO:__main__:2025.10.31.15.27.37: Auto-advance to 5.000T, 5.000S
+INFO:__main__:2025.10.31.15.27.38: RE: 5.000T, 5.000S (loc 2)
+INFO:__main__:2025.10.31.15.37.42: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.38.31: RE: 3.000N, 4.000S (loc 1)
+INFO:__main__:2025.10.31.15.38.56: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1 (3).oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1 (3).looky
+INFO:__main__:2025.10.31.15.38.56: Auto-advance to 5.000T, 5.000S
+INFO:__main__:2025.10.31.15.38.57: RE: 5.000T, 5.000S (loc 2)
+INFO:__main__:2025.10.31.15.40.37: RE: 0.000C, 0.000C (loc 0)
+INFO:__main__:2025.10.31.15.47.25: RE: 0.0C_0.0C (loc 0)
+INFO:__main__:2025.10.31.15.47.47: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1 (4).oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1 (4)0.0C_0.0C.looky
+INFO:__main__:2025.10.31.15.47.47: Auto-advance to 3.0N_4.0S
+INFO:__main__:2025.10.31.15.47.48: RE: 3.0N_4.0S (loc 1)
+INFO:__main__:2025.10.31.15.48.46: RE: 0C_0C (loc 0)
+INFO:__main__:2025.10.31.15.48.51: RE: 3N_4S (loc 1)
+INFO:__main__:2025.10.31.15.49.04: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1 (5).oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\1030_RJ_OD-E1-rep1 (5)3N_4S.looky
+INFO:__main__:2025.10.31.15.49.04: Auto-advance to 5T_5S
+INFO:__main__:2025.10.31.15.49.05: RE: 5T_5S (loc 2)
+INFO:__main__:2025.10.31.15.49.56: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.10.31_15.49.56_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.10.31_15.49.56_1030_RJ_OD-E1-rep15T_5S.looky
+INFO:__main__:2025.10.31.15.49.56: Auto-advance to 0C_0C
+INFO:__main__:2025.10.31.15.49.57: RE: 0C_0C (loc 0)
+INFO:__main__:2025.10.31.15.50.55: RE: 0C_0C (loc 0)
+INFO:__main__:2025.10.31.15.51.03: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.10.31_15.51.03_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.10.31_15.51.03_1030_RJ_OD-E1-rep1_0C_0C.looky
+INFO:__main__:2025.10.31.15.51.03: Auto-advance to 3N_4S
+INFO:__main__:2025.10.31.15.51.04: RE: 3N_4S (loc 1)
+INFO:__main__:2025.10.31.15.51.52: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.10.31_15.51.52_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.10.31_15.51.52_1030_RJ_OD-E1-rep1_3N_4S.looky
+INFO:__main__:2025.10.31.15.51.52: Auto-advance to 5T_5S
+INFO:__main__:2025.10.31.15.51.53: RE: 5T_5S (loc 2)
+INFO:__main__:2025.10.31.16.06.46: RE: 0C_0C (loc 0)
+INFO:__main__:2025.10.31.16.07.38: RE: 0C_0C (loc 0)
+INFO:__main__:2025.10.31.16.07.41: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.10.31_16.07.41_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.10.31_16.07.41_1030_RJ_OD-E1-rep1_0C_0C.looky
+INFO:__main__:2025.10.31.16.07.41: Auto-advance to 0C_0C
+INFO:__main__:2025.10.31.16.07.54: RE: 3N_4S (loc 1)
+INFO:__main__:2025.10.31.16.07.59: RE: 5T_5S (loc 2)
+INFO:__main__:2025.10.31.16.08.00: RE: 0C_0C (loc 0)
+INFO:__main__:2025.10.31.16.08.06: .oct file found at C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.10.31_16.08.06_1030_RJ_OD-E1-rep1.oct, eccentricity written to C:\FDML_data\10302025_RJ_OD_A160B172Z1600\2025.10.31_16.08.06_1030_RJ_OD-E1-rep1_0C_0C.looky
+INFO:__main__:2025.10.31.16.08.06: Auto-advance to 0C_0C
